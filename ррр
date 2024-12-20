@@ -1,0 +1,162 @@
+<!-- Slider -->
+<div class="swiper slider">
+  <div class="slider-ui">
+    <div class="container header-wrapper">
+      <div class="header-content">
+        <div class="header-content__slide active">
+          <h1 class="letters">BIN GREEN</h1>
+          <div class="header-content__info">
+            <p></p>
+          </div>
+        </div>
+
+        <div class="header-content__slide">
+          <h1 class="letters">Our Mission</h1>
+          <div class="header-content__info">
+            <p></p>
+          </div>
+        </div>
+
+        <div class="header-content__slide">
+          <h1 class="letters">Join Us</h1>
+          <div class="header-content__info">
+            <p></p>
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom"></div>
+    </div>
+  </div>
+
+  <!-- slider images -->
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slider__item">
+      <div
+        class="slider__layer"
+        data-swiper-parallax="35%"
+        style="background-image: url('img/slides/trees.jpg')"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="25%"
+        style="background-image: url(img/slides/centertrees.png)"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="14%"
+        style="background-image: url(img/slides/bocktreees.png)"
+      ></div>
+    </div>
+    <div class="swiper-slide slider__item">
+      <div
+        class="slider__layer"
+        data-swiper-parallax="35%"
+        style="background-image: url(img/slides/slide-2-layer-back.jpg)"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="25%"
+        style="background-image: url(img/slides/slide-2-layer-middle.png)"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="14%"
+        style="background-image: url(img/slides/slide-2-layer-front.png)"
+      ></div>
+    </div>
+    <div class="swiper-slide slider__item">
+      <div
+        class="slider__layer"
+        data-swiper-parallax="35%"
+        style="background-image: url(img/slides/slide-3-layer-back.jpg)"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="25%"
+        style="background-image: url(img/slides/slide-3-layer-middle.png)"
+      ></div>
+      <div
+        class="slider__layer"
+        data-swiper-parallax="14%"
+        style="background-image: url(img/slides/slide-3-layer-front.png)"
+      ></div>
+    </div>
+  </div>
+</div>
+<!-- Loading -->
+<!-- <div class="preloader">
+      <div class="preloader-icon">
+        <img src="/html/img/slides/ogo-removebg-preview.png" alt="Loading" />
+      </div>
+      <div class="preloader-text">BIN GREEN</div>
+    </div> -->
+
+<!-- Video -->
+<div class="video-section">
+  <video autoplay muted loop id="background-video">
+    <source src="img/video/naturestart.mp4" type="video/mp4" />
+  </video>
+  <div class="video-overlay">
+    <div class="animated-container">
+      <div class="hero-section">
+        <h1 class="hero-title">
+          <span class="changing-word" id="changing-word"></span>
+          .Прийом вторсировини.
+        </h1>
+        <p class="hero-description">
+          Клімат Землі перебуває на переломній точці. BinGreen сприяє
+          суттєвим<br />
+          кліматичним заходам і масштабує проекти найвищого рівня вуглецевих
+          кредитів, щоб досягти чистого нуля і більше.
+        </p>
+
+        <a href="pictures.html" class="hero-button">ГОУ →</a>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 class="fade-in t225__title t-title t-title_md" field="title">Хто ми?</h2>
+<div class="fade-in t225__descr t-descr t-descr_xxl" field="descr">
+  Ми технологічний стартап, який допомагає людям та <br />організаціям сортувати
+  сміття<br />
+  та здавати його на переробку простим і зручним шляхом.
+</div>
+ <div class="faq-item">
+      <button class="faq-question">
+        Як довго триває процес переробки сировини?
+        <span class="faq-icon"></span>
+      </button>
+      <div class="faq-answer">
+        <p>Час переробки залежить від типу матеріалу, але зазвичай цей процес займає кілька тижнів.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">
+        Чи можу я здати сировину в будь-який час?
+        <span class="faq-icon"></span>
+      </button>
+      <div class="faq-answer">
+        <p>Ви можете здати сировину в будь-який зручний для вас час, якщо є місце для приймання або домовленість для забору. В разі великих обсягів ми рекомендуємо попередню домовленість.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">
+        Як я можу дізнатися, які матеріали найбільш вигідні для здачі?
+        <span class="faq-icon"></span>
+      </button>
+      <div class="faq-answer">
+        <p>Ми регулярно публікуємо актуальні ціни та рекомендації щодо найвигідніших матеріалів для здачі на нашому сайті. </p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">
+        Де я можу спостерігати за вашими процесами переробки та отримати більше інформації?
+        <span class="faq-icon"></span>
+      </button>
+      <div class="faq-answer">
+        <p>Ви можете слідкувати за нашими процесами переробки та екологічними ініціативами на наших соціальних мережах, зокрема в Instagram. Там ми регулярно публікуємо відео та фото з наших процесів і результатів. </p>
+      </div>
+    </div>
+  </div>
